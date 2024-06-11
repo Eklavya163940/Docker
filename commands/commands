@@ -1,2 +1,2 @@
-**docker run** - this will run all the images
+# **docker run** - this will run all the images
 for ex-: docker run nginx ( this will run nginx image)
