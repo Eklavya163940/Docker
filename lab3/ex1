@@ -1,0 +1,24 @@
+1) Build a docker image using the Dockerfile and name it webapp-color. No tag to be specified.
+
+**docker build -t webapp-color**
+
+
+
+2) Run an instance of the image webapp-color and publish port 8080 on the container to 8282 on the host
+
+
+**docker run -p 8282:8080 webapp-color**
+
+
+3) what is the base system of python:3.6 
+
+**docker run python:3.6 cat /etc/*release***
+
+
+
+4) What is the approximate size of the webapp-color image?
+
+ **docker images**
+
+
+
