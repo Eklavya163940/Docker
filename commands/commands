@@ -15,3 +15,7 @@ for ex-: docker run nginx ( this will run nginx image)
 
 8) **sudo docker pull <repo>** = it will only pull the image from docker hub without running it
 
+9) **sudo docker run -it <repo><command>** = this will automatically log you into the docker container when it runs and attach you to the terminal and in interactive mode
+
+10) **docker run -d --name <name><image you want to run> = this will help you name the container
+
