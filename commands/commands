@@ -1,2 +1,17 @@
-# **docker run** - this will run all the images
+1) **docker run** - this will run all the images
 for ex-: docker run nginx ( this will run nginx image)
+
+2) **sudo docker ps** = It lists all the current running containers
+
+3) **sudo docker ps -a** = it lists out all runnning as well as previously stopped containers
+
+4) **sudo docker stop <container_name>** = it will stop the running container
+
+5) **sudo docker rm <container_name>** = it will permanently remove the container
+
+6) **sudo docker images** = it will display list of all images created
+
+7) **sudo docker rmi <image_name>** = it will delete the image from docker which is not in running state and it will delete the whole container
+
+8) **sudo docker pull <repo>** = it will only pull the image from docker hub without running it
+
